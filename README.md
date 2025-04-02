@@ -66,25 +66,5 @@ cmd.get_wizard().apply()
 # Optional: Color specific mutation site
 color hotpink, resi 41
 
-## 📷 Exporting Your Results
-Export images
-Go to: 
-File>Export Image as> PNG
 
-Export a Rotation Movie
-Go to:
-Moive > legacy movie maker > program > camera loop > Y- roll (4secs)
-(You can choose the best option that you want).
-
-### 🙌 Acknowledgments
-This demonstration is part of my PhD project on viral evolution in NDV. Mutations shown here are examples only and do not reflect final publication data.
-
-###📢 License
-This repository is open for educational and research purposes.
-Let me know if you'd like help:
-- Creating the `.pml` file
-- Adding example images or video
-- Setting up the GitHub repository layout
-
-You're doing an amazing job bringing structural biology to life! 🧬✨
 
