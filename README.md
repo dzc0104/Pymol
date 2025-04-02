@@ -2,11 +2,11 @@
 
 This repository provides a workflow to visualize **HN gene mutations** in **Newcastle Disease Virus (NDV)** using PyMOL. This project is part of a my PhD research effort studying low NDV from aquatic birds - viral evolution and host adaptation to chicken embryo by passaging.
 
-## 🧠 Why is this important?
+## Why is this important?
 
 Visualizing protein mutations in 3D space is a powerful method to understand how structural changes can impact function, stability, antigenicity, or interactions with host factors. Tools like PyMOL allow researchers to map mutations onto protein structures, helping bridge the gap between genetic variation and biological consequences. This approach is commonly used in structural biology, virology, vaccine design, and drug development.
 
-### 🎓 Example from this project:
+### Example from this project:
 
 In this project, we visualize specific amino acid mutations in the **Hemagglutinin-Neuraminidase (HN) protein** of **Newcastle Disease Virus (NDV)**. The HN protein plays a critical role in host recognition and viral spread, making it a key focus for understanding viral adaptation.
 
@@ -17,13 +17,13 @@ In this project, we visualize specific amino acid mutations in the **Hemagglutin
 **This workflow can be adapted to visualize mutations in any viral or host protein of interest.**
 
 
-## 🛠 Tools Used
+## Tools Used
 
-- 🔍 **Structure Prediction**: ColabFold v1.5.5 (AlphaFold2 + MMseqs2)  
+- **Structure Prediction**: ColabFold v1.5.5 (AlphaFold2 + MMseqs2)  
   Based on the amino acid sequence of HN gene (NCBI GenBank: **AAC28376.1**)
-- 🎨 **Visualization**: [PyMOL Version 3.1.4](https://www.pymol.org/)
+- **Visualization**: [PyMOL Version 3.1.4](https://www.pymol.org/)
 
-## ⚙️ Workflow
+## ⚙Workflow
 
 ```pymol
 # Load structure
@@ -63,7 +63,7 @@ cmd.get_wizard().apply()
 color hotpink, resi 41
 ```
 
-## 📷 Exporting Your Results
+## Exporting Your Results
 
 Export images
 Go to: 
@@ -74,13 +74,13 @@ Go to:
 Moive > legacy movie maker > program > camera loop > Y- roll (4secs)
 (You can choose the best option that you want).
 
-## 📸 Example Output
+## Example Output
 
 ![HN gene mutation](https://raw.githubusercontent.com/dzc0104/Pymol/main/HN_gene_with_mutations.png)
 
 > Mutations highlighted on the HN protein surface using PyMOL.
 
-### 🙌 Acknowledgments
+### Acknowledgments
 This demonstration is part of my PhD project on viral evolution in NDV. Mutations shown here are examples only and do not reflect final publication data.
 
 ###📢 License
