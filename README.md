@@ -37,7 +37,7 @@ remove pia_residues
 alter LaSota_HN, resi=str(int(resi)-3)
 sort
 
-#creating mutant LaSota_HN named as mutant_combined
+# Creating mutant LaSota_HN named as mutant_combined
 create mutant_combined, LaSota_HN
 
 # Hide original structure and style the new one
@@ -45,13 +45,12 @@ hide everything, LaSota_HN
 color slate, mutant_combined
 set surface_quality, 1
 
-# Highlight mutation sites (I selected here random numbers as I dont want to reveal our data, but the cool thing is that you can work in indivual mutation or all mutation can also be worked at once like below)
+# Highlight mutation sites (I selected here random numbers as I don't want to reveal our data, but the cool thing is that you can work on individual mutations or all mutations at once like below)
 select mutation_sites, resi 31+41+43+44+45+266+269+315+369 and mutant_combined
-show surface, mutation_sites (Surface is the way to show your mutation. You can also show the mutations in different style like sticks, sphere and other. Just explore which you like)
+show surface, mutation_sites  # Surface is the way to show your mutation. You can also show mutations in different styles like sticks, spheres, etc.
 
-So now we will show our mutation in compared to our refernce sequence by this process. 
+# Show mutation compared to reference sequence
 # Optional: Start mutagenesis wizard (GUI)
-
 wizard mutagenesis
 
 # Example mutation: F31L
@@ -61,8 +60,8 @@ cmd.get_wizard().set_mode("LEU")
 cmd.get_wizard().apply()
 
 # Optional: Color specific mutation site
-color hotpink, resi 41 ```
----
+color hotpink, resi 41
+
 
 ## 📷 Exporting Your Results
 
