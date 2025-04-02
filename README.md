@@ -75,7 +75,9 @@ Moive > legacy movie maker > program > camera loop > Y- roll (4secs)
 
 ## 📸 Example Output
 
-![HN gene mutation](https://github.com/dzc0104/Pymol/raw/main/HN_gene_with_mutations.png)
+![HN gene mutation](https://raw.githubusercontent.com/dzc0104/Pymol/main/HN_gene_with_mutations.png)
+
+> Mutations highlighted on the HN protein surface using PyMOL.
 
 ### 🙌 Acknowledgments
 This demonstration is part of my PhD project on viral evolution in NDV. Mutations shown here are examples only and do not reflect final publication data.
