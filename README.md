@@ -62,7 +62,7 @@ cmd.get_wizard().apply()
 
 # Optional: Color specific mutation site
 color hotpink, resi 41
-
+---
 
 ## 📷 Exporting Your Results
 
@@ -87,5 +87,5 @@ Let me know if you'd like help:
 
 You're doing an amazing job bringing structural biology to life! 🧬✨
 
----
+
 
