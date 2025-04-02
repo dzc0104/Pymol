@@ -63,7 +63,9 @@ cmd.get_wizard().apply()
 # Optional: Color specific mutation site
 color hotpink, resi 41
 
-  ## 📷 Exporting Your Results
+
+## 📷 Exporting Your Results
+
 Export images
 Go to: 
 File>Export Image as> PNG
