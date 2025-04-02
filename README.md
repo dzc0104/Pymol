@@ -73,6 +73,10 @@ Go to:
 Moive > legacy movie maker > program > camera loop > Y- roll (4secs)
 (You can choose the best option that you want).
 
+## 📸 Example Output
+
+![HN gene mutation](https://github.com/dzc0104/Pymol/raw/main/HN_gene_with_mutations.png)
+
 ### 🙌 Acknowledgments
 This demonstration is part of my PhD project on viral evolution in NDV. Mutations shown here are examples only and do not reflect final publication data.
 
