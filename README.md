@@ -11,6 +11,7 @@ Visualizing protein mutations in 3D space is a powerful method to understand how
 In this project, we visualize specific amino acid mutations in the **Hemagglutinin-Neuraminidase (HN) protein** of **Newcastle Disease Virus (NDV)**. The HN protein plays a critical role in host recognition and viral spread, making it a key focus for understanding viral adaptation.
 
 - The 3D structure of the HN protein was predicted using **ColabFold v1.5.5 (AlphaFold2 + MMseqs2)** based on the amino acid sequence from **NCBI GenBank: AAC28376.1**.
+  
 - The resulting structure was visualized and annotated using **PyMOL v3.1.4**, highlighting sites of interest and performing in silico mutagenesis to model amino acid changes.
 
 **This workflow can be adapted to visualize mutations in any viral or host protein of interest.**
@@ -65,11 +66,25 @@ cmd.get_wizard().apply()
 # Optional: Color specific mutation site
 color hotpink, resi 41
 
-#Saving_images
+## 📷 Exporting Your Results
+Export images
+Go to: 
 File>Export Image as> PNG
 
-#for downloading movie
-Moive > legacy movie maker > program > camera loop > Y- roll (4secs) (You can choose the best option that you want). 
+Export a Rotation Movie
+Go to:
+Moive > legacy movie maker > program > camera loop > Y- roll (4secs)
+(You can choose the best option that you want).
 
+### 🙌 Acknowledgments
+This demonstration is part of my PhD project on viral evolution in NDV. Mutations shown here are examples only and do not reflect final publication data.
 
+###📢 License
+This repository is open for educational and research purposes.
+Let me know if you'd like help:
+- Creating the `.pml` file
+- Adding example images or video
+- Setting up the GitHub repository layout
+
+You're doing an amazing job bringing structural biology to life! 🧬✨
 
