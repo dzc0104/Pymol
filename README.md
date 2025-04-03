@@ -90,7 +90,5 @@ Let me know if you'd like help:
 - Adding example images or video
 - Setting up the GitHub repository layout
 
-You're doing an amazing job bringing structural biology to life! 🧬✨
-
 
 
